@@ -25,7 +25,7 @@ watch(getCity,async ()=>{
             >
             <p class="title">{{item.date}}</p>
             
-            <img :src="`./src/assets/svg/${dataIcons[item.day.condition.text]}`" alt="" class="frame">
+            <img :src="`/assets/svg/${dataIcons[item.day.condition.text]}`" alt="" class="frame">
             <div class="temperature">
                 <p>{{item.day.mintemp_c}}°c</p>
                 <p>{{item.day.maxtemp_c}}°c</p>

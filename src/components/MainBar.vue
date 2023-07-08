@@ -47,7 +47,7 @@ let parsedResults = computed(()=>{
         </button>
 
         <img 
-            :src="`./src/assets/svg/${dataIcons[parsedResults.condition.text]}`" 
+            :src="`/assets/svg/${dataIcons[parsedResults.condition.text]}`" 
             :alt="parsedResults.condition.text"
             >
         <div class="nav-info">

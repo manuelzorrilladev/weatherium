@@ -3,7 +3,6 @@ import { ref, watch } from 'vue';
 import getCitySearch from '../data/search'
 import {cities} from '../utils/globalState'
 
-
 const validator = ref(0)
 
 const citySearch = ref('')
@@ -31,7 +30,7 @@ function deleteInput() {
 <template>
     <div class="overlay">
         <div class="content">
-            <img src="../assets/svg/clear-day.svg" alt="">
+            <img src="/assets/svg/clear-day.svg" alt="">
 
             <header>
 

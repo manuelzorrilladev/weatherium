@@ -1,6 +1,5 @@
 import axios from "axios";
 import {loadingStatus} from '../utils/globalState'   
-
 const  getDataForecast = async (query) => {
   
   const options = {
@@ -11,7 +10,7 @@ const  getDataForecast = async (query) => {
       days: '5'
     },
     headers: {
-      'key': 'fec070299a95457987b32950230507'
+      'key': import.meta.env.VITE_API_KEY
     }
   }
 
